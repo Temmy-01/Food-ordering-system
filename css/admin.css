@@ -1,0 +1,163 @@
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 20%;
+    background-color: white;
+    margin:1%;
+    padding:2%;
+    float:left;
+    /* display: inline-flex; */
+}
+.clearfix{
+    float:none;
+    clear: both;
+}
+
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 40%
+}
+.main-content{
+    background-color: #f1f2f6;
+    padding-left: 4% !important;
+    padding-right: 4% !important;
+}
+
+.main-content table tr th{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align:left;
+    font-size:15px;
+
+}
+.main-content table tr td{
+    padding: 5px;
+    text-align:left;
+    font-size:13px;
+}
+
+.main-content .btn-primary{
+    background-color: #1e9eff;
+    padding:1% ;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+.main-content .btn-primary:hover{
+    background-color: #3742fa;
+
+}
+.update{
+    /* background-color: #7bed9f; */
+    padding:1% ;
+    color:black !important;
+    text-decoration:none;
+    font-weight:bold;
+    font-size: 25px;
+}
+.update:hover{
+    color: #2ed573 !important;
+
+}
+
+.delete{
+    /* background-color: #ff6b81; */
+    padding:1% ;
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+    font-size: 25px;
+
+}
+.delete:hover{
+    color: #ff4757;
+
+}
+
+.success{
+    color: #2ed573
+}
+.error{
+    color: #ff4757
+}
+
+/* CSS FOR LOGIN */
+.login{
+    background: #2d3235 !important;
+    background-image: url(../images/bg.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+.login .row{
+    background: white !important;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px grey;
+}
+.image{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+/* .row-2{
+    background-image: url(./hand-holding-megaphone-speech-sign-text-quiz-time-vector-illustration_175838-2862.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+} */
+
+.btn1{
+    border: none ;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+
+}
+.btn1:hover{
+    background: white;
+    border: 1px solid;
+    color:black ;
+}
+
+.btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 45px;
+  }
+  
+  .btn-box a {
+    display: inline-block;
+    padding: 10px 55px;
+    background-color: #ffbe33;
+    color: #ffffff;
+    border-radius: 45px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+  }
+  
+  .btn-box a:hover {
+    background-color: #e69c00;
+  }
